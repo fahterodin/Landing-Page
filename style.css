@@ -31,13 +31,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0 0 0;
     margin-bottom: 50px;
 }
 
 .top .shelf {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .top .title {
@@ -69,9 +70,73 @@ body {
     padding: 8px;
     width: 100px;
     height: 40px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: bold;
 }
 
 .top img {
-    width: 200px;
+    width: 600px;
     height: auto;
+}
+
+#logo img {
+    width: 70px;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    gap: 20px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.container img {
+    width: 100px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote { 
+    background-color: #E5E7Eb;
+    padding: 150px 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .signature {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 40px;
 }
