@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/*  first shelf */
 .top {
     background-color: #1F2937;
     font-size: 18px;
@@ -85,6 +86,8 @@ body {
     height: auto;
 }
 
+/* second shelf */
+
 .content {
     text-align: center;
 
@@ -122,6 +125,8 @@ body {
     border-radius: 5px;
 }
 
+/* third shelf */
+
 .quote .text {
     font-size: 36px;
     font-style: italic;
@@ -139,4 +144,42 @@ body {
     align-self: flex-end;
     font-weight: bold;
     font-size: 40px;
+}
+
+/* fourth shelf */
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 70px 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 170px;
+    align-items: center;
+    border-radius: 30px;
+    color: #E5E7Eb;
+}
+
+.sign-up h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up button {
+    background-color: inherit;
+    color: inherit;
+    border: 5px solid white;
+    border-radius: 5px;
+    font-style: inherit;
+    padding: 5px 30px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7Eb;
+    padding: 0 150px 100px 150px;
+    text-align: center;
+    padding: 30px;
 }
